@@ -1,3 +1,123 @@
+body {
+    color: #293241;
+    margin: 0;
+    padding: 0;
+    font-family: 'avenir next', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 110px;
+    line-height: 1;
+    text-shadow: 3px 3px #EE6C4D;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrap h2 {
+    text-shadow: 2px 2px #EE6C4D;
+}
+
+.projects-portfolio h2 {
+    text-shadow: 2px 2px #98C1D9;
+}
+
+.work-experience h2 {
+    text-shadow: 2px 2px white;
+}
+
+.education-certifications h2 {
+    text-shadow: 2px 2px #e0fbfc;
+}
+
+footer h2 {
+    text-shadow: 2px 2px #EE6C4D;
+}
+
 img {
     width: 300px;
+}
+
+a {
+    color: #EE6C4D;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px solid #293241;
+    padding: 25px 0px;
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0px;
+}
+
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+header {
+    background: #3d5a80;
+    color: white;
+}
+
+.projects-portfolio {
+    background: #e0fbfc;
+}
+
+.projects a {
+    color: 2f603;
+}
+
+.work-experience {
+    background-color: #98c1d9;
+    color: #293241;
+}
+
+.education-certifications {
+    background: #EE6C4D;
+    color: #293241;
+}
+
+footer {
+    background: #293241;
+    color: #F7FFF7;
+}
+
+.projects-portfolio .btn {
+    color: white;
+    background: #3d5a80;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.projects-portfolio .btn:hover {
+    background: #98C1D9;
 }
